@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="1" hostname="Laans-MacBook-Pro.local" name="com.flatironschool.javacs.JedisIndexTest" skipped="0" tests="1" time="1.561" timestamp="2016-08-02T16:56:17">
+<testsuite errors="0" failures="0" hostname="Laans-MacBook-Pro.local" name="com.flatironschool.javacs.JedisIndexTest" skipped="0" tests="1" time="1.775" timestamp="2016-08-02T17:04:35">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
@@ -47,7 +47,6 @@
     <property name="env._system_version" value="10.11" />
     <property name="java.specification.name" value="Java Platform API Specification" />
     <property name="java.class.version" value="52.0" />
-    <property name="env.JAVA_MAIN_CLASS_8723" value="org.apache.tools.ant.launch.Launcher" />
     <property name="user.country" value="US" />
     <property name="ant.file.JavaCS" value="/Users/laanyeung/cs-application-backing-with-redis-lab-codeU/javacs-lab10/build.xml" />
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_77.jdk/Contents/Home/jre" />
@@ -74,12 +73,12 @@
     <property name="env.TERM_PROGRAM" value="Apple_Terminal" />
     <property name="java.vendor.url" value="http://java.oracle.com/" />
     <property name="java.library.path" value="/Users/laanyeung/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
-    <property name="gopherProxySet" value="false" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="gopherProxySet" value="false" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
     <property name="java.class.path" value="/Users/laanyeung/cs-application-backing-with-redis-lab-codeU/javacs-lab10/bin:/Users/laanyeung/cs-application-backing-with-redis-lab-codeU/javacs-lab10/lib/jedis-2.8.0.jar:/Users/laanyeung/cs-application-backing-with-redis-lab-codeU/javacs-lab10/lib/jsoup-1.8.3.jar:/Users/laanyeung/cs-application-backing-with-redis-lab-codeU/javacs-lab10/lib/junit-4.12.jar:/Users/laanyeung/cs-application-backing-with-redis-lab-codeU/javacs-lab10/lib/hamcrest-core-1.3.jar:/Users/laanyeung/cs-application-backing-with-redis-lab-codeU/javacs-lab10/lib/hamcrest-library-1.3.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-junit4.jar" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.JedisIndexTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/laanyeung/cs-application-backing-with-redis-lab-codeU/javacs-lab10/junit/TEST-com.flatironschool.javacs.JedisIndexTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=/Users/laanyeung/cs-application-backing-with-redis-lab-codeU/javacs-lab10/junitvmwatcher9084675118161824771.properties propsfile=/Users/laanyeung/cs-application-backing-with-redis-lab-codeU/javacs-lab10/junit2372790527717056234.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.JedisIndexTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/laanyeung/cs-application-backing-with-redis-lab-codeU/javacs-lab10/junit/TEST-com.flatironschool.javacs.JedisIndexTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=/Users/laanyeung/cs-application-backing-with-redis-lab-codeU/javacs-lab10/junitvmwatcher8814410520789772236.properties propsfile=/Users/laanyeung/cs-application-backing-with-redis-lab-codeU/javacs-lab10/junit6330990703780231848.properties" />
     <property name="env.TERM_SESSION_ID" value="7F443E22-2043-44FB-A321-58A3B3751AD4" />
     <property name="ant.file.type.JavaCS" value="file" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
@@ -103,17 +102,13 @@
     <property name="ant.core.lib" value="/usr/local/Cellar/ant/1.9.6/libexec/lib/ant.jar" />
     <property name="source" value="1.7" />
     <property name="file.encoding" value="UTF-8" />
+    <property name="env.JAVA_MAIN_CLASS_9067" value="org.apache.tools.ant.launch.Launcher" />
     <property name="java.specification.version" value="1.8" />
     <property name="ant.project.invoked-targets" value="test" />
   </properties>
-  <testcase classname="com.flatironschool.javacs.JedisIndexTest" name="testGetCounts" time="1.517">
-    <failure message="&#xa;Expected: is &lt;339&gt;&#xa;     but: was null" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: 
-Expected: is &lt;339&gt;
-     but: was null
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at com.flatironschool.javacs.JedisIndexTest.testGetCounts(JedisIndexTest.java:72)
-</failure>
-  </testcase>
-  <system-out><![CDATA[]]></system-out>
+  <testcase classname="com.flatironschool.javacs.JedisIndexTest" name="testGetCounts" time="1.726" />
+  <system-out><![CDATA[Indexing https://en.wikipedia.org/wiki/Java_(programming_language)
+Indexing https://en.wikipedia.org/wiki/Programming_language
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
